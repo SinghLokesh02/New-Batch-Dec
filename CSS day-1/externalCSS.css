@@ -1,0 +1,36 @@
+h1{
+    color: red;
+    background-color: gray;
+}
+
+#three{
+    background-color: lime;
+    color: white;
+}
+
+#li-two{
+    color: white;
+    background-color: black;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#one{
+    background-color: pink;
+    color: green;
+    font-weight: bold;
+    font-style: italic;
+}
+
+body{
+    background-color: yellow;
+    font-family: cursive;
+}
+
+#five{
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+}
