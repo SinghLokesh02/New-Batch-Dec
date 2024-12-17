@@ -1,0 +1,37 @@
+
+body{
+    background-color: black;
+    color: white;
+    background-image: url(./img2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#para-1{
+    color: red;
+    font-size: 18px;
+    font-style: italic;
+}
+span{
+    text-decoration: underline;
+}
+
+#para-2{
+    color: limegreen;
+    letter-spacing: 0px;
+    word-spacing: 10px;
+    line-height: 18px;
+}
+
+#para-3{
+    color: blue;
+    background-color: white;
+    text-align: justify;
+    font-family: cursive;
+    text-indent: 60px;
+}
+
+
+#para-4{
+    font-weight: bold;
+}

@@ -1,0 +1,25 @@
+ol {
+  background-color: rgb(221, 164, 164);
+  color: whitesmoke;
+}
+
+ol > li {
+  color: green;
+  font-weight: bold;
+  list-style-type: circle;
+  text-align: center;
+  background-color: yellow;
+  list-style-position: inside;
+}
+
+ul {
+  background-color: black;
+  color: red;
+  font-weight: bold;
+  font-family: cursive;
+  list-style-type: lower-alpha;
+}
+
+ul > li {
+  color: aqua;
+}
