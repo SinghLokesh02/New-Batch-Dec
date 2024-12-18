@@ -1,0 +1,24 @@
+/* 
+padding : It is space from inside the border
+*/
+
+h1{
+    background-color: red;
+    color: white;
+    padding: 50px 30px;
+    
+}
+
+p{
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    
+}
+
+ul{
+    background-color: green;
+    color: white;
+    padding: 10px 20px 34px 45px;
+    border-radius: 30px;
+}

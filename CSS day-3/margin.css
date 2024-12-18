@@ -1,0 +1,38 @@
+/* 
+Margin - It is the space between the border and the outer edge of the element.(Space outside the border)
+
+*/
+
+h1{
+    background-color: red;
+    color: white;
+    /* margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 30px;
+    margin-top: 130px; */
+
+    /* Shortcut
+    margin: top right bottom left
+    */
+    /* margin: 50px 30px 20px 10px; */
+
+    /* 
+    Margin
+    margin: top-bottom left-right
+    
+    */
+
+    margin: 50px 30px;
+}
+
+p{
+    background-color: blue;
+    color: white;
+    margin: 20px;
+}
+
+ul{
+    background-color: green;
+    color: white;
+    margin: 40px 100px;
+}
