@@ -1,0 +1,55 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: yellow;
+}
+.container{
+    background-color: blue;
+    padding: 10px;
+    display: flex;
+    height: 700px;
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* flex-direction: column-reverse; */
+    /* flex-direction: row-reverse; */
+    /* justify-content: start; */
+    /* flex-wrap: wrap-reverse; */
+    /* justify-content: start; */
+    /* flex-direction: row-reverse; */
+    /* flex-wrap: wrap-reverse; */
+    /* flex-flow: row-reverse wrap; */
+    /* align-content: end; */
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    margin: 10px;
+}
+
+/* .box2{
+align-self: end;
+}
+.box4{
+align-self: center;
+} */
+
+
+.box6{
+    order: -1;
+}
+.box4{
+    order: -2;
+}
+
+/* Flex Items Properties */
+
+
+
+/* .box1{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+} */
