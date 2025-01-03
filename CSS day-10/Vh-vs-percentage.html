@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vh vs Percemtage(%)</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .one{
+           background-color: rgb(51, 0, 255); 
+           width: 50vw;
+           height: 200px;
+        }
+        .card{
+            height: 100px;
+            width: 200px;
+            background-color: red;
+            margin: 5px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .card1{
+            width: 70vw;
+        }
+        .Two{
+            background-color: orange;
+            width: 30vw;
+            height: 200px;
+        }
+        .card2{
+            background-color: cyan;
+            width: 70%;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="one">
+        <div class="card card1">Card 1</div>
+    </div>
+
+
+    <div class="Two">
+        <div class="card card2">Card 2</div>
+    </div>
+</body>
+</html>

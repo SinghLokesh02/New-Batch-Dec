@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Box Shadow</title>
+    <style>
+        body{
+            font-family: cursive;
+            display: flex;
+            justify-content: center;
+        }
+        .card{
+            width: 300px;
+            text-align: center;
+            padding: 10px;
+            border-radius: 10px;
+            border: 1px solid #6b6969;
+            margin: 10px;
+            box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+        }
+        .card p{
+            text-align: justify;
+        }
+        .card img{
+            width: 100%;
+        }
+        .card button{
+            padding: 5px 10px;
+            background-color: white;
+            color: black;
+            font-size: 18px;
+            border: none;
+            border-radius: 10px;
+        }
+        .card h2{
+            text-shadow: 2px 1px 7px red, 0px 1px 14px blue;
+        }
+
+        .card button:hover{
+            background-color: black;
+            color: white;
+            transition: 1s;
+        }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+        <img src="https://media.istockphoto.com/id/1317323736/photo/a-view-up-into-the-trees-direction-sky.jpg?s=612x612&w=0&k=20&c=i4HYO7xhao7CkGy7Zc_8XSNX_iqG0vAwNsrH1ERmw2Q=" alt="">
+      <h2>Nature</h2>
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae
+        doloremque repellendus quia, libero aperiam iste facere deserunt! Cumque
+        quod quia omnis nulla fugiat iure, ex minima eaque harum temporibus
+        dicta?
+      </p>
+      <button>More About Nature</button>
+    </div>
+    <div class="card">
+        <img src="https://i0.wp.com/picjumbo.com/wp-content/uploads/beautiful-nature-mountain-scenery-with-flowers-free-photo.jpg?w=600&quality=80" alt="">
+      <h2>Flower</h2>
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae
+        doloremque repellendus quia, libero aperiam iste facere deserunt! Cumque
+        quod quia omnis nulla fugiat iure, ex minima eaque harum temporibus
+        dicta?
+      </p>
+      <button>More About Flower</button>
+    </div>
+  </body>
+</html>
