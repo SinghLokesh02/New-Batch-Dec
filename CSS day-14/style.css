@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+/* Nav Styling */
+nav{
+    display: flex;
+    border-bottom: 2px solid black;
+    justify-content: space-between;
+    padding: 10px 80px;
+    font-weight: bold;
+    align-items: center;
+}
+ul{
+    display: flex;
+}
+ul li{
+    list-style: none;
+    margin: 0px 10px;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+nav h1:hover, ul li:hover{
+    text-decoration: underline;
+}
+
+/* Home Page Styling */
+.home{
+    display: flex;
+    background-color: antiquewhite;
+    justify-content: space-between;
+    padding: 100px;
+    border-bottom: 2px solid black;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+.text h1{
+    font-size: 3rem;
+     
+}
+.text p{
+    font-size: 1.5rem;
+}
+.text,.image{
+    width: 50%;
+}
+.image img{
+    max-width: 100%;
+    height: auto;
+}
+.btns button{
+    padding: 10px 20px;
+    color: black;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    border: 3px solid black;
+}
+.bgc{
+    background-color: antiquewhite;
+}
+
+.btns button:hover{
+    background-color: black;
+    color: white;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+/* Below Home Styling */
+.below-home{
+    /* background-color: yellow; */
+}
+.below-text{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
+}
+.below-text h1{
+    font-size: 2rem;
+}
+.below-text p{
+    margin: 50px 0px;
+    font-size: 1.6rem;
+}
+/* Cards Styling */
+.cards{
+    /* background-color: red; */
+    padding: 50px 150px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+
+}
+
+.card{
+    width: 500px;
+    display: flex;
+    border: 2px solid black;
+    align-items: center;
+    gap: 50px;
+    padding: 15px;
+}
+.card img{
+    width: 100px;
+    height: auto;
+}
+
+
+/* Responsive CSS */
+
+@media (width <= 768px) {
+    .image{
+        display: none;
+    }
+    .text{
+        width: 100%;
+        text-align: center;
+    }
+    nav,ul{
+        flex-direction: column;
+        align-items: start;
+    }
+    nav{
+        padding: 10px;
+    }
+}
+
+@media (width <= 691px) {
+    .cards{
+        padding: 50px 30px;
+    }
+    .home{
+        padding: 50px;
+    }
+    .below-text{
+        width: 80%;
+    }
+}
+
